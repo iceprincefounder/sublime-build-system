@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+source "/opt/rh/devtoolset-2/enable"
+if [ -f "$@/Makefile" ] 
+then
+    cd "$@";make;make install
+elif [ -f "$@/../Makefile" ]
+then
+    cd "$@/..";make;make install
+else
+    echo "Cant Find Makefile"
+fi

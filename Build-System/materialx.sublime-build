@@ -1,0 +1,5 @@
+{
+    "cmd": ["/mnt/public/home/xukai/sources/sublime/materialx", "$file"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "selector": "source.python"
+}

@@ -1,0 +1,5 @@
+{
+	"cmd": ["$packages/Build-System/buildShell/arnold-build", "$file_path"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "selector": "source.make"
+}
